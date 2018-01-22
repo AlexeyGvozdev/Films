@@ -1,0 +1,14 @@
+package com.example.alexey.films
+
+import io.reactivex.Observable
+import retrofit2.Call
+import retrofit2.http.GET
+
+/**
+ * Created by Alexey on 18.01.2018.
+ */
+interface RestApi {
+
+    @GET("./3/discover/movie?api_key=6ccd72a2a8fc239b13f209408fc31c33&language=ru")
+    fun getFilms(): Call<Data>
+}

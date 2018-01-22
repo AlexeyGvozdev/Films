@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="sevenLines">120dp</dimen>
+    <dimen name="fiveLines">85dp</dimen>
+    <dimen name="threeLines">49dp</dimen>
+    <dimen name="twoLines">35dp</dimen>
+    <dimen name="zeroLines">0dp</dimen>
+</resources>
