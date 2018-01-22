@@ -3,9 +3,7 @@ package com.example.alexey.films
 import io.realm.RealmObject
 import io.realm.annotations.PrimaryKey
 
-/**
- * Created by Alexey on 19.01.2018.
- */
+
 class Data (val results: List<Film>)
 
 open class Film : RealmObject() {

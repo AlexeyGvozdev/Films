@@ -12,9 +12,7 @@ import com.squareup.picasso.Picasso
 import io.realm.Realm
 
 
-/**
- * Created by Alexey on 19.01.2018.
- */
+
 class MyAdapter(private val listener: (Film) -> Unit) : RecyclerView.Adapter<MyAdapter.ViewHolder>() {
 
 
